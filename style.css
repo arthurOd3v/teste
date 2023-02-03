@@ -1,0 +1,90 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+  margin: 0px;
+}
+
+.bike {
+  height: 400px;
+}
+
+.grid2 {
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  text-align: start;
+  background: white;
+}
+
+.conteudo {
+  font-size: 25px;
+}
+
+.back {
+  padding: 40px;
+  text-align: end;
+  background: white;
+}
+
+.grid {
+  margin: 50px 400px 0px 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.direitos {
+  position: static;
+  text-align: center;
+  background: white;
+  padding: 5px;
+  bottom: 40px;
+}
+
+.vantagens {
+  font-size: 25px;
+  padding: 40px;
+  text-align: end;
+  display: grid;
+  grid-row: 2;
+}
+
+.esq {
+  display: grid;
+  grid-column: 1;
+}
+
+.dir {
+  display: grid;
+  grid-column: 2 / 3;
+}
+
+.redbutton {
+  text-decoration: none;
+  background: red;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+}
+
+.menu {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+}
+
+.flex {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+}
+
+.logo {
+  display: grid;
+  place-content: center;
+  margin-top: 60px;
+}
